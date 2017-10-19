@@ -1,0 +1,35 @@
+{
+  "name": "hmw-js-tools",
+  "version": "1.0.0",
+  "description": "My JS-Tools HMW",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp prod",
+    "build:dev": "gulp server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmytroTsmots/HMW-JS-Tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmytroTsmots/HMW-JS-Tools/issues"
+  },
+  "homepage": "https://github.com/dmytroTsmots/HMW-JS-Tools#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.0.4",
+    "gulp-less": "^3.3.2",
+    "gulp-sequence": "^0.4.6",
+    "gulp-uglify": "^3.0.0",
+    "jshint": "^2.9.5"
+  }
+}
